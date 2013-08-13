@@ -7,7 +7,7 @@ describe Integer do
     end
 
     it 'pukes when a non-integer is passed' do
-      expect { 1 + 'n' }.to raise_error TypeError
+      expect { 1 + 'n' }.to raise_error ArgumentError
     end
   end
 
